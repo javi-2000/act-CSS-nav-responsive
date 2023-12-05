@@ -1,0 +1,47 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: beige;
+}
+
+header{
+    height: 75px;
+    width: 100vw;
+    background-color: rgb(176, 176, 255);
+}
+
+header img{
+    display: none;
+    width: 30px;
+}
+
+nav{
+    height: 75px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    background-color: rgb(127, 127, 255);
+    border-radius: 5px;
+}
+
+@media (max-width: 768px){
+    header img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 25px;
+        
+    }
+    nav{
+        display: none;
+    }
+}
